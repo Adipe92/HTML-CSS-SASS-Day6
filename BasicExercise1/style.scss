@@ -1,5 +1,4 @@
 @import "partials/variables";
-@import "partials/mediaqueries";
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 @mixin mainheader-style ($color) {
     display: flex;
@@ -105,7 +104,11 @@ h1 {
 
 .maintext {
     @include text-overflow-style($font-color);
-    &:hover {
-        opacity: 1;
-    }
 }
+
+.images:hover .maintext {
+    opacity: 1;
+}
+
+// must be at the very end otherwise it will be overwritten by the default settings
+@import "partials/mediaqueries";

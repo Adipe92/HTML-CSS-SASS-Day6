@@ -1,4 +1,5 @@
 @import "partials/variables";
+@import "partials/mediaqueries";
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 @mixin mainheader-style ($color) {
     display: flex;
@@ -29,6 +30,18 @@
     background-position: center;
 }
 
+@mixin text-overflow-style ($color) {
+    padding: 10px 0;
+    color: $font-color;
+    font-weight: bold;
+    font-size: 2em;
+    background-color: $background-color-overflow;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    transition: 500ms ease-in-out;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -55,37 +68,44 @@ h1 {
 }
 
 .img1 {
-    @include image-style();
     background: url("pics/holyfawn.jpg");
+    @include image-style();
     grid-area: 1/1/3/5;
 }
 
 .img2 {
-    @include image-style();
     background: url("pics/tool.jpg");
+    @include image-style();
     grid-area: 1/5/5/9;
 }
 
 .img3 {
-    @include image-style();
     background: url("pics/russiancircles.jpg");
+    @include image-style();
     grid-area: 3/1/5/3;
 }
 
 .img4 {
-    @include image-style();
     background: url("pics/uncleacid.jpg");
+    @include image-style();
     grid-area: 3/3/5/5;
 }
 
 .img5 {
-    @include image-style();
     background: url("pics/mastodon.jpg");
+    @include image-style();
     grid-area: 5/1/7/5;
 }
 
 .img6 {
-    @include image-style();
     background: url("pics/elder.jpg");
+    @include image-style();
     grid-area: 5/5/7/9;
+}
+
+.maintext {
+    @include text-overflow-style($font-color);
+    &:hover {
+        opacity: 1;
+    }
 }

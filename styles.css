@@ -63,10 +63,54 @@ nav {
 
 header {
   width: 85%;
+  height: 300px;
+}
+
+header .header-img {
+  height: 100%;
+  background-image: url("picasso.jpg");
+}
+
+header .header-img h1 {
+  text-align: left;
+  padding-top: 40px;
+  padding-left: 700px;
+  font-size: 120px;
+  color: yellow;
+  text-shadow: 3px 3px black;
+  font-family: 'Love Light', cursive;
+}
+
+header .header-img p {
+  text-align: center;
+  font-size: 22px;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+main {
+  width: 85%;
+  height: 400px;
+  background-color: #3d3838;
+}
+
+main .box {
+  padding-top: 150px;
+  padding-left: 600px;
+  font-size: 40px;
+  color: white;
 }
 
 footer {
   width: 85%;
+  height: 100px;
   background-color: #0e0e6e;
+}
+
+footer .copy {
+  text-align: center;
+  padding-top: 50px;
+  color: white;
+  font-weight: bold;
 }
 /*# sourceMappingURL=styles.css.map */

@@ -52,11 +52,15 @@ h1 {
   width: 100%;
   height: 100%;
   background-size: cover;
+<<<<<<< HEAD
   background-position: center;
   -ms-grid-row: 1;
   -ms-grid-row-span: 2;
   -ms-grid-column: 1;
   -ms-grid-column-span: 4;
+=======
+  background-position: center top;
+>>>>>>> 6337b380f0c049341a5b3f685bda1cd6c4cf57a1
   grid-area: 1/1/3/5;
 }
 
@@ -65,11 +69,15 @@ h1 {
   width: 100%;
   height: 100%;
   background-size: cover;
+<<<<<<< HEAD
   background-position: center;
   -ms-grid-row: 1;
   -ms-grid-row-span: 4;
   -ms-grid-column: 5;
   -ms-grid-column-span: 4;
+=======
+  background-position: center top;
+>>>>>>> 6337b380f0c049341a5b3f685bda1cd6c4cf57a1
   grid-area: 1/5/5/9;
 }
 
@@ -78,11 +86,15 @@ h1 {
   width: 100%;
   height: 100%;
   background-size: cover;
+<<<<<<< HEAD
   background-position: center;
   -ms-grid-row: 3;
   -ms-grid-row-span: 2;
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
+=======
+  background-position: center top;
+>>>>>>> 6337b380f0c049341a5b3f685bda1cd6c4cf57a1
   grid-area: 3/1/5/3;
 }
 
@@ -91,11 +103,15 @@ h1 {
   width: 100%;
   height: 100%;
   background-size: cover;
+<<<<<<< HEAD
   background-position: center;
   -ms-grid-row: 3;
   -ms-grid-row-span: 2;
   -ms-grid-column: 3;
   -ms-grid-column-span: 2;
+=======
+  background-position: center top;
+>>>>>>> 6337b380f0c049341a5b3f685bda1cd6c4cf57a1
   grid-area: 3/3/5/5;
 }
 
@@ -104,11 +120,15 @@ h1 {
   width: 100%;
   height: 100%;
   background-size: cover;
+<<<<<<< HEAD
   background-position: center;
   -ms-grid-row: 5;
   -ms-grid-row-span: 2;
   -ms-grid-column: 1;
   -ms-grid-column-span: 4;
+=======
+  background-position: center top;
+>>>>>>> 6337b380f0c049341a5b3f685bda1cd6c4cf57a1
   grid-area: 5/1/7/5;
 }
 
@@ -117,11 +137,15 @@ h1 {
   width: 100%;
   height: 100%;
   background-size: cover;
+<<<<<<< HEAD
   background-position: center;
   -ms-grid-row: 5;
   -ms-grid-row-span: 2;
   -ms-grid-column: 5;
   -ms-grid-column-span: 4;
+=======
+  background-position: center top;
+>>>>>>> 6337b380f0c049341a5b3f685bda1cd6c4cf57a1
   grid-area: 5/5/7/9;
 }
 
@@ -138,7 +162,74 @@ h1 {
   transition: 500ms ease-in-out;
 }
 
+<<<<<<< HEAD
 .maintext:hover {
   opacity: 1;
 }
 /*# sourceMappingURL=style.css.map */
+=======
+.images:hover .maintext {
+  opacity: 1;
+}
+
+@media screen and (max-width: 1100px) {
+  .grid-container {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(21, 30%);
+  }
+
+  .img1 {
+    grid-area: 1/1/3/5;
+  }
+
+  .img2 {
+    grid-area: 3/1/9/5;
+  }
+
+  .img3 {
+    grid-area: 9/1/13/3;
+  }
+
+  .img4 {
+    grid-area: 9/3/13/5;
+  }
+
+  .img5 {
+    grid-area: 13/1/17/5;
+  }
+
+  .img6 {
+    grid-area: 17/1/21/5;
+  }
+}
+@media screen and (max-width: 700px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(13, 30%);
+  }
+
+  .img1 {
+    grid-area: 1/1/3/3;
+  }
+
+  .img2 {
+    grid-area: 3/1/5/3;
+  }
+
+  .img3 {
+    grid-area: 5/1/7/3;
+  }
+
+  .img4 {
+    grid-area: 7/1/9/3;
+  }
+
+  .img5 {
+    grid-area: 9/1/11/3;
+  }
+
+  .img6 {
+    grid-area: 11/1/13/3;
+  }
+}/*# sourceMappingURL=style.css.map */
+>>>>>>> 6337b380f0c049341a5b3f685bda1cd6c4cf57a1
